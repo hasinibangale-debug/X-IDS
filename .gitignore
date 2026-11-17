@@ -221,3 +221,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# X-IDS Project Specific Ignores
+dataset/raw/*
+!dataset/raw/.gitkeep
+dataset/processed/*
+!dataset/processed/.gitkeep
+results/models/*
+!results/models/.gitkeep
+*.pt
+*.pth
+*.pcap
+*.parquet
+
