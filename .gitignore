@@ -221,3 +221,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large datasets and processed files
+*.npy
+*.npz
+*.parquet
+*.joblib
+
+# Dataset directories
+dataset/raw/
+dataset/processed/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
